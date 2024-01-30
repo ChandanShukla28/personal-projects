@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0; 
+    background-color: rgba(202, 223, 231, 0.625);
+    font-family: 'Libre Baskerville', serif;
+}
+
+#intro {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+#intro .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+#intro .header h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+#intro .header h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+
+#intro .header h4{
+    font-size: 24px;
+    font-weight: 600;
+    background-color: gold;
+    border: 1px solid gold;
+}
+
+.button{
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: gold;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#intro .navbar {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    background-image: url("./images/myPic.webp");
+    background-size: cover;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#intro .navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+#intro .navbar a:hover{
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+#intro .navbar .icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gold;
+    border: 1px solid gold; 
+    border-radius: 15px; 
+    position: fixed;
+}
+
+#intro .navbar i {
+    font-size: 30px;
+    padding: 5px;
+}
+
+
+
+
+/* About Me Section */
